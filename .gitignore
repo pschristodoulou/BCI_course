@@ -3,6 +3,15 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Jupyter Notebook !!!!!
+.ipynb_checkpoints
+
+# Folder I don't want 
+Initial/
+Lectures/
+Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf
+
+
 # C extensions
 *.so
 
@@ -74,9 +83,6 @@ docs/_build/
 # PyBuilder
 .pybuilder/
 target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
 
 # IPython
 profile_default/
