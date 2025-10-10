@@ -1,0 +1,19 @@
+data_path: /path/to/data
+auditory_oddball:
+  session_list:
+    - erp_subject_1
+    - erp_subject_2
+    - erp_subject_3
+  condition_list:
+    - fast
+    - slow
+word_erp:
+  session_list:
+    - word_subject_1
+    - word_subject_2
+    - word_subject_3
+  condition_list:
+    - 1D
+    - 6D
+    - HP
+
