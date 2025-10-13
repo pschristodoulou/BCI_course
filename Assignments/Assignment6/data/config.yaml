@@ -1,4 +1,4 @@
-data_path: /Users/jordythielen/Downloads/eeg_tutorial_erp_data
+data_path: C:\Users\ptrso\Desktop\MasteRU\BCI\Assignments\Assignment6\data\eeg_tutorial_erp_data
 auditory_oddball:
   session_list:
     - erp_subject_1
