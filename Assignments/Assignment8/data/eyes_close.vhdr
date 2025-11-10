@@ -1,0 +1,253 @@
+Brain Vision Data Exchange Header File Version 1.0
+; Data created by the Vision Recorder
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=eyes_close.eeg
+MarkerFile=eyes_close.vmrk
+DataFormat=BINARY
+; Data orientation: MULTIPLEXED=ch1,pt1, ch2,pt1 ...
+DataOrientation=MULTIPLEXED
+NumberOfChannels=69
+; Sampling interval in microseconds
+SamplingInterval=1000
+
+[Binary Infos]
+BinaryFormat=INT_16
+
+[Channel Infos]
+; Each entry: Ch<Channel number>=<Name>,<Reference channel name>,
+; <Resolution in "Unit">,<Unit>, Future extensions..
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in channel names are coded as "\1".
+Ch1=Fp1,,0.1,µV
+Ch2=Fp2,,0.1,µV
+Ch3=F3,,0.1,µV
+Ch4=F4,,0.1,µV
+Ch5=C3,,0.1,µV
+Ch6=C4,,0.1,µV
+Ch7=P3,,0.1,µV
+Ch8=P4,,0.1,µV
+Ch9=O1,,0.1,µV
+Ch10=O2,,0.1,µV
+Ch11=F7,,0.1,µV
+Ch12=F8,,0.1,µV
+Ch13=T7,,0.1,µV
+Ch14=T8,,0.1,µV
+Ch15=P7,,0.1,µV
+Ch16=P8,,0.1,µV
+Ch17=Fz,,0.1,µV
+Ch18=Cz,,0.1,µV
+Ch19=Pz,,0.1,µV
+Ch20=EOGvu,,0.1,µV
+Ch21=FC1,,0.1,µV
+Ch22=FC2,,0.1,µV
+Ch23=CP1,,0.1,µV
+Ch24=CP2,,0.1,µV
+Ch25=FC5,,0.1,µV
+Ch26=FC6,,0.1,µV
+Ch27=CP5,,0.1,µV
+Ch28=CP6,,0.1,µV
+Ch29=F9,,0.1,µV
+Ch30=F10,,0.1,µV
+Ch31=P9,,0.1,µV
+Ch32=P10,,0.1,µV
+Ch33=AF7,,0.1,µV
+Ch34=AF3,,0.1,µV
+Ch35=AF4,,0.1,µV
+Ch36=AF8,,0.1,µV
+Ch37=F5,,0.1,µV
+Ch38=F1,,0.1,µV
+Ch39=F2,,0.1,µV
+Ch40=F6,,0.1,µV
+Ch41=FT7,,0.1,µV
+Ch42=FC3,,0.1,µV
+Ch43=FCz,,0.1,µV
+Ch44=FC4,,0.1,µV
+Ch45=FT8,,0.1,µV
+Ch46=C5,,0.1,µV
+Ch47=C1,,0.1,µV
+Ch48=C2,,0.1,µV
+Ch49=C6,,0.1,µV
+Ch50=TP7,,0.1,µV
+Ch51=CP3,,0.1,µV
+Ch52=CPz,,0.1,µV
+Ch53=CP4,,0.1,µV
+Ch54=TP8,,0.1,µV
+Ch55=P5,,0.1,µV
+Ch56=P1,,0.1,µV
+Ch57=P2,,0.1,µV
+Ch58=P6,,0.1,µV
+Ch59=PO7,,0.1,µV
+Ch60=PO5,,0.1,µV
+Ch61=POz,,0.1,µV
+Ch62=PO6,,0.1,µV
+Ch63=PO8,,0.1,µV
+Ch64=Oz,,0.1,µV
+Ch65=x_EMGl,,10,µV
+Ch66=x_GSR,,152.6,µV
+Ch67=x_Respi,,152.6,µV
+Ch68=x_Pulse,,152.6,µV
+Ch69=x_Optic,,152.6,µV
+
+[Comment]
+
+BrainVision Recorder Professional   -   V. 1.20.0601
+
+
+A m p l i f i e r  S e t u p
+============================
+Number of channels: 69
+Sampling Rate [Hz]: 1000
+Sampling Interval [µS]: 1000
+
+Channels
+--------
+#     Name      Phys. Chn.    Resolution / Unit   Low Cutoff [s]   High Cutoff [Hz]   Notch [Hz]    Series Res. [kOhm] Gradient         Offset
+1     Fp1         1                0.1 µV             DC              250              Off                0                 
+2     Fp2         2                0.1 µV             DC              250              Off                0                 
+3     F3          3                0.1 µV             DC              250              Off                0                 
+4     F4          4                0.1 µV             DC              250              Off                0                 
+5     C3          5                0.1 µV             DC              250              Off                0                 
+6     C4          6                0.1 µV             DC              250              Off                0                 
+7     P3          7                0.1 µV             DC              250              Off                0                 
+8     P4          8                0.1 µV             DC              250              Off                0                 
+9     O1          9                0.1 µV             DC              250              Off                0                 
+10    O2          10               0.1 µV             DC              250              Off                0                 
+11    F7          11               0.1 µV             DC              250              Off                0                 
+12    F8          12               0.1 µV             DC              250              Off                0                 
+13    T7          13               0.1 µV             DC              250              Off                0                 
+14    T8          14               0.1 µV             DC              250              Off                0                 
+15    P7          15               0.1 µV             DC              250              Off                0                 
+16    P8          16               0.1 µV             DC              250              Off                0                 
+17    Fz          17               0.1 µV             DC              250              Off                0                 
+18    Cz          18               0.1 µV             DC              250              Off                0                 
+19    Pz          19               0.1 µV             DC              250              Off                0                 
+20    EOGvu       20               0.1 µV             DC              250              Off                0                 
+21    FC1         21               0.1 µV             DC              250              Off                0                 
+22    FC2         22               0.1 µV             DC              250              Off                0                 
+23    CP1         23               0.1 µV             DC              250              Off                0                 
+24    CP2         24               0.1 µV             DC              250              Off                0                 
+25    FC5         25               0.1 µV             DC              250              Off                0                 
+26    FC6         26               0.1 µV             DC              250              Off                0                 
+27    CP5         27               0.1 µV             DC              250              Off                0                 
+28    CP6         28               0.1 µV             DC              250              Off                0                 
+29    F9          29               0.1 µV             DC              250              Off                0                 
+30    F10         30               0.1 µV             DC              250              Off                0                 
+31    P9          31               0.1 µV             DC              250              Off                0                 
+32    P10         32               0.1 µV             DC              250              Off                0                 
+33    AF7         33               0.1 µV             DC              250              Off                0                 
+34    AF3         34               0.1 µV             DC              250              Off                0                 
+35    AF4         35               0.1 µV             DC              250              Off                0                 
+36    AF8         36               0.1 µV             DC              250              Off                0                 
+37    F5          37               0.1 µV             DC              250              Off                0                 
+38    F1          38               0.1 µV             DC              250              Off                0                 
+39    F2          39               0.1 µV             DC              250              Off                0                 
+40    F6          40               0.1 µV             DC              250              Off                0                 
+41    FT7         41               0.1 µV             DC              250              Off                0                 
+42    FC3         42               0.1 µV             DC              250              Off                0                 
+43    FCz         43               0.1 µV             DC              250              Off                0                 
+44    FC4         44               0.1 µV             DC              250              Off                0                 
+45    FT8         45               0.1 µV             DC              250              Off                0                 
+46    C5          46               0.1 µV             DC              250              Off                0                 
+47    C1          47               0.1 µV             DC              250              Off                0                 
+48    C2          48               0.1 µV             DC              250              Off                0                 
+49    C6          49               0.1 µV             DC              250              Off                0                 
+50    TP7         50               0.1 µV             DC              250              Off                0                 
+51    CP3         51               0.1 µV             DC              250              Off                0                 
+52    CPz         52               0.1 µV             DC              250              Off                0                 
+53    CP4         53               0.1 µV             DC              250              Off                0                 
+54    TP8         54               0.1 µV             DC              250              Off                0                 
+55    P5          55               0.1 µV             DC              250              Off                0                 
+56    P1          56               0.1 µV             DC              250              Off                0                 
+57    P2          57               0.1 µV             DC              250              Off                0                 
+58    P6          58               0.1 µV             DC              250              Off                0                 
+59    PO7         59               0.1 µV             DC              250              Off                0                 
+60    PO5         60               0.1 µV             DC              250              Off                0                 
+61    POz         61               0.1 µV             DC              250              Off                0                 
+62    PO6         62               0.1 µV             DC              250              Off                0                 
+63    PO8         63               0.1 µV             DC              250              Off                0                 
+64    Oz          64               0.1 µV             DC              250              Off                0                 
+65    x_EMGl      65                10 µV             10              250              Off                0                 
+66    x_GSR       74             152.6 µV             DC              250              Off                0                 
+67    x_Respi     75             152.6 µV             DC              250              Off                0                 
+68    x_Pulse     76             152.6 µV             DC              250              Off                0                 
+69    x_Optic     77             152.6 µV             DC              250              Off                0                 
+
+S o f t w a r e  F i l t e r s
+==============================
+Disabled
+
+
+Data Electrodes Selected Impedance Measurement Range: 0 - 20 kOhm
+Ground Electrode Selected Impedance Measurement Range: 0 - 10 kOhm
+Reference Electrode Selected Impedance Measurement Range: 0 - 10 kOhm
+Impedance [kOhm] at 10:00:11 :
+Fp1:          2
+Fp2:          7
+F3:           8
+F4:           8
+C3:           1
+C4:           3
+P3:           2
+P4:           4
+O1:           1
+O2:           1
+F7:           3
+F8:           1
+T7:          10
+T8:           3
+P7:           4
+P8:           1
+Fz:          12
+Cz:           2
+Pz:          13
+EOGvu:        2
+FC1:          3
+FC2:          5
+CP1:          5
+CP2:         10
+FC5:          2
+FC6:          1
+CP5:          4
+CP6:          9
+F9:           8
+F10:          3
+P9:           7
+P10:          2
+AF7:          4
+AF3:          6
+AF4:          1
+AF8:          2
+F5:           4
+F1:          10
+F2:          10
+F6:           2
+FT7:          1
+FC3:          3
+FCz:         11
+FC4:          5
+FT8:          1
+C5:           6
+C1:           2
+C2:           1
+C6:           6
+TP7:          5
+CP3:          2
+CPz:          8
+CP4:          1
+TP8:          3
+P5:           6
+P1:          11
+P2:           8
+P6:           1
+PO7:          4
+PO5:         11
+POz:          1
+PO6:          1
+PO8:          1
+Oz:           3
+x_EMGl+:     14
+x_EMGl-:  Out of Range!
+Ref:          0
+Gnd:          3
